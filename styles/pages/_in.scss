@@ -1,0 +1,14 @@
+#in{
+    @include block;
+    display:flex;
+}
+#signIn{
+    @include button;
+    @include size;
+}
+#openPageNewAc{
+    text-decoration-line: none;
+}
+#openPageNewAc:visited{
+    color: blue;
+}

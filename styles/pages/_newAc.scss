@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(247, 245, 245);
+}
+main {
+   @include block;
+   display: none;
+}
+
+input{
+    @include size;
+    padding: 5px;
+    border: gray;
+}
+
+input:hover{
+    box-shadow: 0 0 6px 2px lightblue;
+}
+
+#save{
+    @include size;
+    @include button
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#openPageIn{
+    text-decoration-line: none;
+}
+#openPageIn:visited{
+    color:blue
+}
+
